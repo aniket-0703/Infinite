@@ -1,0 +1,107 @@
+.otp-container {
+  display: flex;
+  height: 100vh;
+}
+
+.otp-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.otp-content {
+  width: 100%;
+  max-width: 300px;
+}
+
+.otp-content h2 {
+  color: #6f42c1;
+}
+
+.otp-inputs {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.otp-inputs input {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.timer {
+  margin-top: 1rem;
+}
+
+.verify-btn {
+  background: linear-gradient(90deg, #6f42c1, #b145de);
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.verify-btn:hover {
+  background: linear-gradient(90deg, #5a36a9, #9c36b8);
+}
+
+.otp-right {
+  flex: 1;
+  background: url('../../../../../public/Rectangle.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.otp-right h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .otp-container {
+    flex-direction: column;
+  }
+
+  .otp-left, .otp-right {
+    flex: none;
+    width: 100%;
+  }
+
+  .otp-right {
+    padding: 1rem;
+  }
+
+  .otp-right h1 {
+    font-size: 2rem;
+  }
+}

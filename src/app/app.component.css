@@ -1,0 +1,92 @@
+/* app.component.css */
+:root {
+  --primary-color: #6200ea;
+  --secondary-color: #b388ff;
+  --background-color: #f5f5f5;
+  --text-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.upcoming-event, .weekly-stats, .recent-events {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.recent-events ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recent-events li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.status {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+}

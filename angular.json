@@ -37,7 +37,11 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css"
+
+
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -107,5 +111,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a4eaae2e-02ba-4b09-89fc-17806aa2f30a"
   }
 }

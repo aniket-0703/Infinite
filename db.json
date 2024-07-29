@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "Aniket Mhalungekar",
+      "email": "mhalungekaraniket@gmail.com",
+      "mobileNumber": "9370050574",
+      "password": "Aniket@07",
+      "id": 1
+    },
+    {
+      "username": "aniket",
+      "email": "aniket@gmail.com",
+      "mobileNumber": "",
+      "password": "Aniket@07",
+      "id": 2
+    }
+  ]
+}
