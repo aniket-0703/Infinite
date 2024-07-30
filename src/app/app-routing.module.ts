@@ -10,6 +10,7 @@ import { ForgetPassComponent } from './modules/auth/forget-pass/forget-pass.comp
 import { DashExampComponent } from './shared/dash-examp/dash-examp.component';
 import { EventDetailsComponent } from './modules/admin/event-manage/event-details/event-details.component';
 import { CreateEventComponent } from './modules/admin/event-manage/create-event/create-event.component';
+import { CreateEventFormComponent } from './modules/admin/event-manage/create-event-form/create-event-form.component';
 
 const routes: Routes = [
   { path: '', component: AuthComponent },
@@ -19,8 +20,9 @@ const routes: Routes = [
   { path: 'forgot-password', component: ForgetPassComponent },
   { path: 'user_manage', component: UserManageComponent },
   { path: 'dashboard', component: DashExampComponent },
-  { path:'event_details', component:EventDetailsComponent},
-  { path:'event', component:CreateEventComponent}
+  { path:'event/:id', component:EventDetailsComponent},
+  { path:'event', component:CreateEventComponent},
+  { path:'event-form', component:CreateEventFormComponent}
 ];
 
 @NgModule({

@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { EventService } from '../../../../core/event.service';
 import { ToastrService } from 'ngx-toastr';
+import { EventService } from '../../../../core/event.service';
 
 @Component({
-  selector: 'app-create-event',
-  templateUrl: './create-event.component.html',
-  styleUrl: './create-event.component.css'
+  selector: 'app-create-event-form',
+  templateUrl: './create-event-form.component.html',
+  styleUrl: './create-event-form.component.css'
 })
-export class CreateEventComponent {
+export class CreateEventFormComponent {
   eventForm: FormGroup;
   pinLevels: string[] = ['HR', 'Senior Manager', 'Accountant', 'Manager'];
   showPinLevelDropdown = false;

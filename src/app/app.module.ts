@@ -22,6 +22,7 @@ import { DashExampComponent } from './shared/dash-examp/dash-examp.component';
 import { EventDetailsComponent } from './modules/admin/event-manage/event-details/event-details.component';
 import { DetailsComponent } from './modules/admin/event-manage/details/details.component';
 import { CreateEventComponent } from './modules/admin/event-manage/create-event/create-event.component';
+import { CreateEventFormComponent } from './modules/admin/event-manage/create-event-form/create-event-form.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { CreateEventComponent } from './modules/admin/event-manage/create-event/
     DashExampComponent,
     EventDetailsComponent,
     DetailsComponent,
-    CreateEventComponent
+    CreateEventComponent,
+    CreateEventFormComponent
   ],
   imports: [
     BrowserModule,
