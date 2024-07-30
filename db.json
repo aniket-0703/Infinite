@@ -14,5 +14,208 @@
       "password": "Aniket@07",
       "id": 2
     }
+  ],
+  "events": [
+    {
+      "eventName": "Aniket",
+      "eventStartDate": "2024-08-02",
+      "eventEndDate": "2024-08-03",
+      "bookingStartDate": "2024-07-31",
+      "bookingEndDate": "2024-08-01",
+      "eventStartTime": "18:00",
+      "eventEndTime": "23:00",
+      "price": 4000,
+      "capacity": 200,
+      "pinLevel": [
+        "HR",
+        "Senior Manager"
+      ],
+      "images": [
+        {},
+        {}
+      ],
+      "id": 1
+    },
+    {
+      "eventName": "nkkljds",
+      "eventStartDate": "2024-07-30",
+      "eventEndDate": "2024-08-01",
+      "bookingStartDate": "2024-07-30",
+      "bookingEndDate": "2024-07-31",
+      "eventStartTime": "14:05",
+      "eventEndTime": "16:07",
+      "price": 400,
+      "capacity": 100,
+      "pinLevel": [
+        "HR",
+        "Senior Manager"
+      ],
+      "images": [
+        "img.svg",
+        "logo.svg"
+      ],
+      "id": 2
+    },
+    {
+      "eventName": "Music Concert",
+      "eventStartDate": "2024-08-01",
+      "eventEndDate": "2024-08-02",
+      "bookingStartDate": "2024-07-30",
+      "bookingEndDate": "2024-08-01",
+      "eventStartTime": "18:00",
+      "eventEndTime": "00:30",
+      "price": 2000,
+      "capacity": 200,
+      "pinLevel": [
+        "HR"
+      ],
+      "images": [
+        "img.svg",
+        "img1.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 3
+    },
+    {
+      "eventName": "Music Concert",
+      "eventStartDate": "2024-07-30",
+      "eventEndDate": "2024-08-01",
+      "bookingStartDate": "2024-08-02",
+      "bookingEndDate": "2024-08-02",
+      "eventStartTime": "16:29",
+      "eventEndTime": "17:30",
+      "price": 2000,
+      "capacity": 100,
+      "pinLevel": [
+        "Senior Manager"
+      ],
+      "images": [
+        "img.svg",
+        "img1.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 4
+    },
+    {
+      "eventName": "Music Concert",
+      "eventStartDate": "2024-07-31",
+      "eventEndDate": "2024-08-06",
+      "bookingStartDate": "2024-08-01",
+      "bookingEndDate": "2024-08-01",
+      "eventStartTime": "17:41",
+      "eventEndTime": "18:42",
+      "price": 1000,
+      "capacity": 100,
+      "pinLevel": [
+        "HR"
+      ],
+      "images": [
+        "img.svg",
+        "img1.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 5
+    },
+    {
+      "eventName": "nkkljds",
+      "eventStartDate": "2024-07-31",
+      "eventEndDate": "2024-08-01",
+      "bookingStartDate": "2024-07-30",
+      "bookingEndDate": "2024-08-01",
+      "eventStartTime": "18:45",
+      "eventEndTime": "18:45",
+      "price": 2000,
+      "capacity": 200,
+      "pinLevel": [
+        "HR",
+        "Senior Manager",
+        "Accountant",
+        "Manager"
+      ],
+      "images": [
+        "img.svg",
+        "img1.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 6
+    },
+    {
+      "eventName": "Aniket",
+      "eventStartDate": "2024-07-31",
+      "eventEndDate": "2024-08-01",
+      "bookingStartDate": "2024-08-01",
+      "bookingEndDate": "2024-08-02",
+      "eventStartTime": "18:50",
+      "eventEndTime": "20:50",
+      "price": 1000,
+      "capacity": 200,
+      "pinLevel": [
+        "HR"
+      ],
+      "images": [
+        "img1.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 7
+    },
+    {
+      "eventName": "nkkljds",
+      "eventStartDate": "2024-08-01",
+      "eventEndDate": "2024-08-01",
+      "bookingStartDate": "2024-08-03",
+      "bookingEndDate": "2024-08-05",
+      "eventStartTime": "15:50",
+      "eventEndTime": "17:50",
+      "price": 2000,
+      "capacity": 200,
+      "pinLevel": [
+        "HR"
+      ],
+      "images": [
+        "img1.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 8
+    },
+    {
+      "eventName": "nkkljds",
+      "eventStartDate": "2024-08-01",
+      "eventEndDate": "2024-08-02",
+      "bookingStartDate": "2024-08-01",
+      "bookingEndDate": "2024-08-03",
+      "eventStartTime": "16:50",
+      "eventEndTime": "18:50",
+      "price": 3000,
+      "capacity": 100,
+      "pinLevel": [
+        "Senior Manager"
+      ],
+      "images": [
+        "img.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 9
+    },
+    {
+      "eventName": "Aniket",
+      "eventStartDate": "2024-07-31",
+      "eventEndDate": "2024-08-02",
+      "bookingStartDate": "2024-08-01",
+      "bookingEndDate": "2024-08-02",
+      "eventStartTime": "16:54",
+      "eventEndTime": "18:56",
+      "price": 2000,
+      "capacity": 50,
+      "pinLevel": [
+        "Senior Manager",
+        "HR"
+      ],
+      "images": [
+        "img.svg",
+        "img1.svg"
+      ],
+      "eventDescription": "concert, social institution for the public performance of music outside of a religious or dramatic context. Concerts developed in their present form from the informal music-making of the 17th century.\n",
+      "id": 10
+    }
   ]
 }

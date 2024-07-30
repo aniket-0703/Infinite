@@ -1,0 +1,90 @@
+<form [formGroup]="eventForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="eventName">Event Name:</label>
+    <input id="eventName" formControlName="eventName" type="text" />
+    <div *ngIf="eventForm.get('eventName')?.invalid && eventForm.get('eventName')?.touched">
+      Event name is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="eventStartDate">Event Start Date:</label>
+    <input id="eventStartDate" formControlName="eventStartDate" type="date" />
+  </div>
+
+  <div>
+    <label for="eventEndDate">Event End Date:</label>
+    <input id="eventEndDate" formControlName="eventEndDate" type="date" />
+  </div>
+
+  <div>
+    <label for="bookingStartDate">Booking Start Date:</label>
+    <input id="bookingStartDate" formControlName="bookingStartDate" type="date" />
+  </div>
+
+  <div>
+    <label for="bookingEndDate">Booking End Date:</label>
+    <input id="bookingEndDate" formControlName="bookingEndDate" type="date" />
+  </div>
+
+  <div>
+    <label for="eventStartTime">Event Start Time:</label>
+    <input id="eventStartTime" formControlName="eventStartTime" type="time" />
+  </div>
+
+  <div>
+    <label for="eventEndTime">Event End Time:</label>
+    <input id="eventEndTime" formControlName="eventEndTime" type="time" />
+  </div>
+
+  <div>
+    <label for="price">Price:</label>
+    <input id="price" formControlName="price" type="number" min="0" />
+    <div *ngIf="eventForm.get('price')?.invalid && eventForm.get('price')?.touched">
+      Price must be a non-negative number.
+    </div>
+  </div>
+
+  <div>
+    <label for="capacity">Capacity:</label>
+    <input id="capacity" formControlName="capacity" type="number" min="1" />
+    <div *ngIf="eventForm.get('capacity')?.invalid && eventForm.get('capacity')?.touched">
+      Capacity must be at least 1.
+    </div>
+  </div>
+
+  <div>
+    <label for="eventDescription">Event Description:</label>
+    <textarea id="eventDescription" formControlName="eventDescription"></textarea>
+    <div *ngIf="eventForm.get('eventDescription')?.invalid && eventForm.get('eventDescription')?.touched">
+      Event description is required.
+    </div>
+  </div>
+
+  <div>
+    <label for="pinLevel">Pin Level:</label>
+    <div class="dropdown">
+      <button type="button" (click)="togglePinLevelDropdown()">Select Pin Levels</button>
+      <div *ngIf="showPinLevelDropdown" class="dropdown-content">
+        <input type="checkbox" (change)="toggleSelectAll($event)" [checked]="isAllSelected()" /> Select all
+        <br />
+        <div *ngFor="let level of pinLevels">
+          <input type="checkbox" [value]="level" [checked]="eventForm.controls['pinLevel'].value.includes(level)" (change)="onPinLevelChange(level, $event)" /> {{ level }}
+        </div>
+      </div>
+    </div>
+    <div *ngIf="eventForm.get('pinLevel')?.value?.length">
+      <p>Selected Pin Levels:</p>
+      <ul>
+        <li *ngFor="let level of eventForm.get('pinLevel')?.value">{{ level }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <label for="images">Upload Images:</label>
+    <input id="images" type="file" (change)="onFileChange($event)" multiple />
+  </div>
+
+  <button type="submit" [disabled]="eventForm.invalid">Submit</button>
+</form>

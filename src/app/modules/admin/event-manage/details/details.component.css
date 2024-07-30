@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  font-family: 'Poppins',sans-serif;
+
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: #7036d5;
+  font-size: 24px;
+}
+
+.event-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.event-header-wrapper {
+  background: linear-gradient(90deg, #7036d5, #c62d85);
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.event-header {
+  background-color: #fff;
+  color: #7036d5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-header h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.event-location,
+.event-date-time {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.event-description {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.event-description h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.event-details {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.detail-item {
+  flex: 0 0 48%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.detail-item span {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.detail-item p {
+  margin: 0;
+  color: #333;
+}
+
+.photos-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.photos-section h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; /* Ensure the images are in a single line */
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  gap: 10px; /* Add space between images */
+  padding-bottom: 10px; /* Add some space below the images */
+}
+
+.photos img {
+  width: calc(25% - 7.5px); /* Adjust width to fit 4 images with gaps */
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.export-btn {
+  background: linear-gradient(90deg, #7036d5, #c62d85);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.export-btn:hover {
+  background-color: #5a29a7;
+}

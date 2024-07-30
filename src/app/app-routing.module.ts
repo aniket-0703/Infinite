@@ -8,15 +8,19 @@ import { DashboardComponent } from './modules/dashboard/dashboard.component';
 import { RegisterComponent } from './modules/auth/register/register.component';
 import { ForgetPassComponent } from './modules/auth/forget-pass/forget-pass.component';
 import { DashExampComponent } from './shared/dash-examp/dash-examp.component';
+import { EventDetailsComponent } from './modules/admin/event-manage/event-details/event-details.component';
+import { CreateEventComponent } from './modules/admin/event-manage/create-event/create-event.component';
 
 const routes: Routes = [
   { path: '', component: AuthComponent },
   { path: 'otp', component: OtpComponent },
-  { path: 'dashboard', component: DashboardComponent },
+  { path: 'dash', component: DashboardComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'forgot-password', component: ForgetPassComponent },
   { path: 'user_manage', component: UserManageComponent },
-  { path: 'dash_ex', component: DashExampComponent }
+  { path: 'dashboard', component: DashExampComponent },
+  { path:'event_details', component:EventDetailsComponent},
+  { path:'event', component:CreateEventComponent}
 ];
 
 @NgModule({
