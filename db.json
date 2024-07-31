@@ -184,6 +184,107 @@
       ],
       "eventDescription": "Add ffkrgjhr nijergre ipnpjgrwe hw pnijerh e p p rngjre ",
       "id": 8
+    },
+    {
+      "eventName": "Music Concert",
+      "eventStartDate": "2024-07-31",
+      "eventEndDate": "2024-08-02",
+      "bookingStartDate": "2024-08-02",
+      "bookingEndDate": "2024-08-02",
+      "eventStartTime": "15:47",
+      "eventLocation": "Kolhapur",
+      "eventEndTime": "18:50",
+      "price": "2000",
+      "capacity": 1000,
+      "pinLevel": [
+        "HR",
+        "Senior Manager"
+      ],
+      "images": [
+        "img1.svg"
+      ],
+      "eventDescription": "greeeeeeeeeeeeeeeeeee",
+      "id": 9
+    },
+    {
+      "eventName": "Event Concert 2",
+      "eventStartDate": "2024-08-02",
+      "eventEndDate": "2024-08-02",
+      "bookingStartDate": "2024-07-31",
+      "bookingEndDate": "2024-08-01",
+      "eventStartTime": "18:40",
+      "eventLocation": "Kolhapur",
+      "eventEndTime": "20:40",
+      "price": "2000",
+      "capacity": 100,
+      "pinLevel": [
+        "HR"
+      ],
+      "images": [
+        "img.svg"
+      ],
+      "eventDescription": "dsbhdkj ljdjg e ",
+      "id": 10
+    },
+    {
+      "eventName": "Music Concert 3",
+      "eventStartDate": "2024-08-01",
+      "eventEndDate": "2024-08-02",
+      "bookingStartDate": "2024-08-03",
+      "bookingEndDate": "2024-08-03",
+      "eventStartTime": "20:45",
+      "eventLocation": "Kolhapur",
+      "eventEndTime": "22:00",
+      "price": "2000",
+      "capacity": 100,
+      "pinLevel": [
+        "HR"
+      ],
+      "images": [
+        "img1.svg"
+      ],
+      "eventDescription": "chmghgh",
+      "id": 11
+    }
+  ],
+  "members": [
+    {
+      "memberName": "Aniket",
+      "memberLastName": "Mhalungekar",
+      "memberId": "22",
+      "memberPinLevel": "HR",
+      "memberIncharge": "Aditya",
+      "memberTeam": "Infinite",
+      "memberEmail": "aniket@gmail.com",
+      "memberNumber": "9561910703",
+      "memberGst": "55",
+      "memberSpouseName": "ABCD",
+      "memberAddress1": "Kolhapur ",
+      "memberAddress2": "Kolhapur maharashtra India",
+      "memberCity": "kolhapur",
+      "memberState": "Maharashtra",
+      "memberCountry": "India",
+      "memberZipCode": "416205",
+      "id": 1
+    },
+    {
+      "memberName": "Aniket",
+      "memberLastName": "Mhalungekar",
+      "memberId": "22",
+      "memberPinLevel": "HR",
+      "memberIncharge": "Aditya",
+      "memberTeam": "Infinite",
+      "memberEmail": "aniket@gmail.com",
+      "memberNumber": "9561910703",
+      "memberGst": "55",
+      "memberSpouseName": "ABCD",
+      "memberAddress1": "Kolhapur ",
+      "memberAddress2": "Kolhapur maharashtra India",
+      "memberCity": "kolhapur",
+      "memberState": "Maharashtra",
+      "memberCountry": "India",
+      "memberZipCode": "416205",
+      "id": 2
     }
   ]
 }

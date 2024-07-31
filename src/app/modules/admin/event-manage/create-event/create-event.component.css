@@ -153,6 +153,7 @@ body, html {
 .content {
   margin-top: 50px; /* Space for fixed header */
   padding: 20px;
+  margin-left: 100px;
   /* overflow: hidden; */
 }
 

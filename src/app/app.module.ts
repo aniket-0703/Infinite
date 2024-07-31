@@ -23,6 +23,11 @@ import { EventDetailsComponent } from './modules/admin/event-manage/event-detail
 import { DetailsComponent } from './modules/admin/event-manage/details/details.component';
 import { CreateEventComponent } from './modules/admin/event-manage/create-event/create-event.component';
 import { CreateEventFormComponent } from './modules/admin/event-manage/create-event-form/create-event-form.component';
+import { UserListComponent } from './modules/admin/users-manage/user-list/user-list.component';
+import { UserDeailsComponent } from './modules/admin/users-manage/user-deails/user-deails.component';
+import { AddUserComponent } from './modules/admin/users-manage/add-user/add-user.component';
+import { AddUserFormComponent } from './modules/admin/users-manage/add-user/add-user-form/add-user-form.component';
+import { DeatilsPageComponent } from './modules/admin/users-manage/user-deails/deatils-page/deatils-page.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +47,12 @@ import { CreateEventFormComponent } from './modules/admin/event-manage/create-ev
     EventDetailsComponent,
     DetailsComponent,
     CreateEventComponent,
-    CreateEventFormComponent
+    CreateEventFormComponent,
+    UserListComponent,
+    UserDeailsComponent,
+    AddUserComponent,
+    AddUserFormComponent,
+    DeatilsPageComponent
   ],
   imports: [
     BrowserModule,

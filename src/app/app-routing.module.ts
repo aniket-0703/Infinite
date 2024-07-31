@@ -11,6 +11,11 @@ import { DashExampComponent } from './shared/dash-examp/dash-examp.component';
 import { EventDetailsComponent } from './modules/admin/event-manage/event-details/event-details.component';
 import { CreateEventComponent } from './modules/admin/event-manage/create-event/create-event.component';
 import { CreateEventFormComponent } from './modules/admin/event-manage/create-event-form/create-event-form.component';
+import { UserListComponent } from './modules/admin/users-manage/user-list/user-list.component';
+import { AddUserComponent } from './modules/admin/users-manage/add-user/add-user.component';
+import { DetailsComponent } from './modules/admin/event-manage/details/details.component';
+import { DeatilsPageComponent } from './modules/admin/users-manage/user-deails/deatils-page/deatils-page.component';
+import { UserDeailsComponent } from './modules/admin/users-manage/user-deails/user-deails.component';
 
 const routes: Routes = [
   { path: '', component: AuthComponent },
@@ -22,7 +27,10 @@ const routes: Routes = [
   { path: 'dashboard', component: DashExampComponent },
   { path:'event/:id', component:EventDetailsComponent},
   { path:'event', component:CreateEventComponent},
-  { path:'event-form', component:CreateEventFormComponent}
+  { path:'event-form', component:CreateEventFormComponent},
+  { path:'user-list', component:UserListComponent},
+  { path:'add-user', component:AddUserComponent},
+  { path:'members/:id', component:UserDeailsComponent}
 ];
 
 @NgModule({
