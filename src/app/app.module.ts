@@ -34,6 +34,8 @@ import { VerifierPageComponent } from './modules/admin/admin-manage/verifier/ver
 import { VerifierDetailComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail.component';
 import { VerifierDetailFormComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail-form/verifier-detail-form.component';
 import { AdminPageComponent } from './modules/admin/admin-manage/add-admin/admin-page/admin-page.component';
+import { ReportComponent } from './modules/admin/report/report.component';
+import { ReportPageComponent } from './modules/admin/report/report-page/report-page.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,9 @@ import { AdminPageComponent } from './modules/admin/admin-manage/add-admin/admin
     VerifierPageComponent,
     VerifierDetailComponent,
     VerifierDetailFormComponent,
-    AdminPageComponent
+    AdminPageComponent,
+    ReportComponent,
+    ReportPageComponent
   ],
   imports: [
     BrowserModule,
