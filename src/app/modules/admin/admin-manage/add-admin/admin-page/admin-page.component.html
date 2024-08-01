@@ -7,8 +7,8 @@
       <ul>
         <li> <a routerLink="/dashboard"> <i class="fa fa-house"></i>&nbsp;&nbsp;
             Dashboard</a></li>
-        <li ><a routerLink="/event_manage"><i class="fa fa-calendar-days"></i>&nbsp;&nbsp; Event Management</a></li>
-        <li ><a routerLink="/user-list"><i class="fa fa-user"></i>&nbsp;&nbsp; User Management</a></li>
+        <li><a routerLink="/event_manage"><i class="fa fa-calendar-days"></i>&nbsp;&nbsp; Event Management</a></li>
+        <li><a routerLink="/user-list"><i class="fa fa-user"></i>&nbsp;&nbsp; User Management</a></li>
 
         <li class="active"><a> <i class="fa fa-plus">&nbsp;&nbsp;</i>Add Admin</a></li>
         <li><a routerLink="/report"> <i class="fa fa-repeat"></i> &nbsp;&nbsp; Switch Account</a></li>
@@ -16,7 +16,7 @@
         <li><a><i class="fa fa-arrow-right-from-bracket"></i>&nbsp;&nbsp; Log out</a></li>
       </ul>
     </nav>
-<app-calendar></app-calendar>
+    <app-calendar></app-calendar>
   </aside>
 
   <main class="main-content">
@@ -31,8 +31,9 @@
           <img src="./Messages.png" alt="Messages" class="icon-image" />
         </button>
         <button style="border: none; background: none;">
-          <img src="./Notifications.png" alt="Notifications" class="icon-image" />
-        </button>
+          <a routerLink="/notification">
+            <img src="./Notifications.png" alt="Notifications" class="icon-image" />
+          </a> </button>
         <div class="user">
           <img src="./user.png" alt="User">
         </div>
@@ -42,7 +43,7 @@
 
     <div class="content">
       <h2 class="event-title" style="color: #4D22AE; font-weight: 400; font-size: 40px;">Verifier Details</h2>
-       <app-add-admin></app-add-admin>
+      <app-add-admin></app-add-admin>
     </div>
 
   </main>

@@ -18,6 +18,8 @@ html {
   display: flex;
   height: 100vh;
   overflow: hidden;
+  font-family: 'Poppins';
+
   /* Prevent container overflow */
 }
 
@@ -66,7 +68,7 @@ html {
 
 .menu a:hover,
 .menu .active a {
-  background-color: #4b2f89;
+  background-color: #5a3ea8;
   color: white;
 }
 
@@ -87,10 +89,10 @@ html {
 
 
 .header {
-  width: calc(100% - 300px);
+  width: calc(100% - 360px);
   position: fixed;
   top: 10px;
-  left: 280px;
+  left: 340px;
   height: 60px;
   display: flex;
   justify-content: space-between;

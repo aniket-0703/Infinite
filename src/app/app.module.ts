@@ -36,6 +36,10 @@ import { VerifierDetailFormComponent } from './modules/admin/admin-manage/verifi
 import { AdminPageComponent } from './modules/admin/admin-manage/add-admin/admin-page/admin-page.component';
 import { ReportComponent } from './modules/admin/report/report.component';
 import { ReportPageComponent } from './modules/admin/report/report-page/report-page.component';
+import { NotificationComponent } from './modules/admin/profile/notification/notification.component';
+import { ProfileUpdateComponent } from './modules/admin/profile/profile-update/profile-update.component';
+import { SettingComponent } from './modules/admin/profile/setting/setting.component';
+import { FullPageComponent } from './modules/admin/profile/full-page/full-page.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +72,11 @@ import { ReportPageComponent } from './modules/admin/report/report-page/report-p
     VerifierDetailFormComponent,
     AdminPageComponent,
     ReportComponent,
-    ReportPageComponent
+    ReportPageComponent,
+    NotificationComponent,
+    ProfileUpdateComponent,
+    SettingComponent,
+    FullPageComponent
   ],
   imports: [
     BrowserModule,

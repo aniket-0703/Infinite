@@ -89,7 +89,7 @@ body, html {
   background-color: #f9f9fc;
 }
 .header {
-  width: 78%;
+  width: 80%;
   position: fixed;
   top: 10px;
   left: 280px; /* Adjust this according to your sidebar width */

@@ -21,6 +21,7 @@ import { VerifierPageComponent } from './modules/admin/admin-manage/verifier/ver
 import { VerifierDetailComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail.component';
 import { AdminPageComponent } from './modules/admin/admin-manage/add-admin/admin-page/admin-page.component';
 import { ReportComponent } from './modules/admin/report/report.component';
+import { NotificationComponent } from './modules/admin/profile/notification/notification.component';
 
 const routes: Routes = [
   { path: '', component: AuthComponent },
@@ -39,7 +40,8 @@ const routes: Routes = [
   { path:'verifiers/:id', component:VerifierDetailComponent},
   { path:'verify', component:VerifierPageComponent},
   { path:'admin', component:AdminPageComponent},
-  { path:'report', component:ReportComponent}
+  { path:'report', component:ReportComponent},
+  { path:'notification', component:NotificationComponent}
 ];
 
 @NgModule({
