@@ -16,6 +16,9 @@ import { AddUserComponent } from './modules/admin/users-manage/add-user/add-user
 import { DetailsComponent } from './modules/admin/event-manage/details/details.component';
 import { DeatilsPageComponent } from './modules/admin/users-manage/user-deails/deatils-page/deatils-page.component';
 import { UserDeailsComponent } from './modules/admin/users-manage/user-deails/user-deails.component';
+import { VerifierComponent } from './modules/admin/admin-manage/verifier/verifier.component';
+import { VerifierPageComponent } from './modules/admin/admin-manage/verifier/verifier-page/verifier-page.component';
+import { VerifierDetailComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail.component';
 
 const routes: Routes = [
   { path: '', component: AuthComponent },
@@ -30,7 +33,9 @@ const routes: Routes = [
   { path:'event-form', component:CreateEventFormComponent},
   { path:'user-list', component:UserListComponent},
   { path:'add-user', component:AddUserComponent},
-  { path:'members/:id', component:UserDeailsComponent}
+  { path:'members/:id', component:UserDeailsComponent},
+  { path:'verifiers/:id', component:VerifierDetailComponent},
+  { path:'verify', component:VerifierPageComponent}
 ];
 
 @NgModule({

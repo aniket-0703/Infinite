@@ -5,25 +5,23 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
+export class VerifierService {
 
-
-  private apiUrl = 'http://localhost:3000/members';
+  private apiUrl = 'http://localhost:3000/verifier';
 
   constructor(private http: HttpClient) {}
 
-  createMember(member:any) {
-    return this.http.post(this.apiUrl,member);
-  }
+
   createVerifier(member:any) {
     return this.http.post(this.apiUrl,member);
   }
-  getMember():Observable<any>{
-    return this.http.get<any>(this.apiUrl);
+  getVerifier():Observable<any>{
+    return this.http.get<any>(this.apiUrl)
   }
 
 
-  getEventById(id: number): Observable<any> {
+
+  getVerifierById(id: number): Observable<any> {
     return this.http.get<any>(`${this.apiUrl}/${id}`);
   }
 }

@@ -65,7 +65,7 @@
               <td>{{ member.memberName }}</td>
               <td>{{ member.memberCity }}</td>
               <td>{{ member.memberPinLevel }}</td>
-            
+
                 <td>
                   <div class="toggle-switch">
                     <input type="checkbox" id="toggle" [(ngModel)]="isToggled" (change)="onToggleChange()" />
@@ -92,19 +92,19 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let event of verifiers">
-              <td>#{{ event.id }}</td>
-              <td>{{ event.userName }}</td>
-              <td>{{ event.location }}</td>
-              <td>{{ event.pinLevel }}</td>
+            <tr *ngFor="let verifier of verifierData">
+              <td>#{{  verifier.verifierId }}</td>
+              <td>{{  verifier.verifierName }}</td>
+              <td>{{  verifier.verifierLocation }}</td>
+              <td>{{  verifier.verifierPinLevel }}</td>
               <td>
                 <div class="toggle-switch">
                   <input type="checkbox" id="toggle" [(ngModel)]="isToggled" (change)="onToggleChange()" />
                   <label for="toggle" class="switch"></label>
                 </div>
-                
+
               </td>
-              <td><button class="btn details-btn" >User Details</button></td>
+              <td><button class="btn details-btn" (click)="viewVerfierDetails(verifier.id)" >Verifier Details</button></td>
             </tr>
           </tbody>
         </table>

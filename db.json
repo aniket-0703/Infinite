@@ -286,5 +286,25 @@
       "memberZipCode": "416205",
       "id": 2
     }
+  ],
+  "verifier": [
+    {
+      "verifierName": "Aniket",
+      "verifierId": "336655",
+      "verifierEmail": "aniket@gmail.com",
+      "verifierNumber": 9370050574,
+      "verifierLocation": "Kolhapur",
+      "verifierPinLevel": "HR",
+      "id": 1
+    },
+    {
+      "verifierName": "Aniket",
+      "verifierId": "336655",
+      "verifierEmail": "aniket@gmail.com",
+      "verifierNumber": 9370050574,
+      "verifierLocation": "Kolhapur",
+      "verifierPinLevel": "HR",
+      "id": 2
+    }
   ]
 }

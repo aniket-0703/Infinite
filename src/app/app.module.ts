@@ -28,6 +28,11 @@ import { UserDeailsComponent } from './modules/admin/users-manage/user-deails/us
 import { AddUserComponent } from './modules/admin/users-manage/add-user/add-user.component';
 import { AddUserFormComponent } from './modules/admin/users-manage/add-user/add-user-form/add-user-form.component';
 import { DeatilsPageComponent } from './modules/admin/users-manage/user-deails/deatils-page/deatils-page.component';
+import { VerifierComponent } from './modules/admin/admin-manage/verifier/verifier.component';
+import { AddAdminComponent } from './modules/admin/admin-manage/add-admin/add-admin.component';
+import { VerifierPageComponent } from './modules/admin/admin-manage/verifier/verifier-page/verifier-page.component';
+import { VerifierDetailComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail.component';
+import { VerifierDetailFormComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail-form/verifier-detail-form.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +57,12 @@ import { DeatilsPageComponent } from './modules/admin/users-manage/user-deails/d
     UserDeailsComponent,
     AddUserComponent,
     AddUserFormComponent,
-    DeatilsPageComponent
+    DeatilsPageComponent,
+    VerifierComponent,
+    AddAdminComponent,
+    VerifierPageComponent,
+    VerifierDetailComponent,
+    VerifierDetailFormComponent
   ],
   imports: [
     BrowserModule,
