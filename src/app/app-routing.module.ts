@@ -19,6 +19,7 @@ import { UserDeailsComponent } from './modules/admin/users-manage/user-deails/us
 import { VerifierComponent } from './modules/admin/admin-manage/verifier/verifier.component';
 import { VerifierPageComponent } from './modules/admin/admin-manage/verifier/verifier-page/verifier-page.component';
 import { VerifierDetailComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail.component';
+import { AdminPageComponent } from './modules/admin/admin-manage/add-admin/admin-page/admin-page.component';
 
 const routes: Routes = [
   { path: '', component: AuthComponent },
@@ -26,7 +27,7 @@ const routes: Routes = [
   { path: 'dash', component: DashboardComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'forgot-password', component: ForgetPassComponent },
-  { path: 'user_manage', component: UserManageComponent },
+  { path: 'event_manage', component: UserManageComponent },
   { path: 'dashboard', component: DashExampComponent },
   { path:'event/:id', component:EventDetailsComponent},
   { path:'event', component:CreateEventComponent},
@@ -35,7 +36,8 @@ const routes: Routes = [
   { path:'add-user', component:AddUserComponent},
   { path:'members/:id', component:UserDeailsComponent},
   { path:'verifiers/:id', component:VerifierDetailComponent},
-  { path:'verify', component:VerifierPageComponent}
+  { path:'verify', component:VerifierPageComponent},
+  { path:'admin', component:AdminPageComponent}
 ];
 
 @NgModule({

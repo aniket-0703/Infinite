@@ -306,5 +306,21 @@
       "verifierPinLevel": "HR",
       "id": 2
     }
+  ],
+  "admin": [
+    {
+      "adminName": "Aniket",
+      "adminID": "223366",
+      "adminEmail": "admin@gmail.com",
+      "adminNumber": 935566233,
+      "id": 1
+    },
+    {
+      "adminName": "Aniket",
+      "adminID": "223377",
+      "adminEmail": "admin1@gmail.com",
+      "adminNumber": 9966336665,
+      "id": 2
+    }
   ]
 }

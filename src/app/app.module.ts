@@ -33,6 +33,7 @@ import { AddAdminComponent } from './modules/admin/admin-manage/add-admin/add-ad
 import { VerifierPageComponent } from './modules/admin/admin-manage/verifier/verifier-page/verifier-page.component';
 import { VerifierDetailComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail.component';
 import { VerifierDetailFormComponent } from './modules/admin/admin-manage/verifier/verifier-detail/verifier-detail-form/verifier-detail-form.component';
+import { AdminPageComponent } from './modules/admin/admin-manage/add-admin/admin-page/admin-page.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { VerifierDetailFormComponent } from './modules/admin/admin-manage/verifi
     AddAdminComponent,
     VerifierPageComponent,
     VerifierDetailComponent,
-    VerifierDetailFormComponent
+    VerifierDetailFormComponent,
+    AdminPageComponent
   ],
   imports: [
     BrowserModule,
