@@ -30,10 +30,22 @@ export class ReportComponent {
   events: Event[] = [
     { id: 1, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
     { id: 2, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
+    { id: 3, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
+    { id: 4, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
+    { id: 5, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
+    { id: 6, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
+    { id: 7, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
+    { id: 8, Tkt_No: 23456, name: 'A.Ayaan', tokens: 2, Meal: 'Non-Veg', SpouseMeal: 'Non-veg', MemberId: 'W11346578', Pinlevel: 'Manager', SpouseName: 'Kavita.M', TeamName: 'Infinite' },
     // More data...
   ];
 
   meals: Meal[] = [
+    { pinLevel: 'World Team', veg: 100, nonVeg: 200, shake: 130, total: 430 },
+    { pinLevel: 'World Team', veg: 200, nonVeg: 200, shake: 150, total: 550 },
+    { pinLevel: 'World Team', veg: 100, nonVeg: 200, shake: 130, total: 430 },
+    { pinLevel: 'World Team', veg: 100, nonVeg: 200, shake: 130, total: 430 },
+    { pinLevel: 'World Team', veg: 100, nonVeg: 200, shake: 130, total: 430 },
+    { pinLevel: 'World Team', veg: 100, nonVeg: 200, shake: 130, total: 430 },
     { pinLevel: 'World Team', veg: 100, nonVeg: 200, shake: 130, total: 430 },
     { pinLevel: 'World Team', veg: 100, nonVeg: 200, shake: 130, total: 430 },
     // More data...
