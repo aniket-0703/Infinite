@@ -33,7 +33,7 @@
   overflow-y: auto;
 }
 
-.menu-title, .calendar-title, .updates-title, .status-title {
+.menu-title, .calendar-title, .updates-title, .status-title, .event-title, .update-event {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -98,94 +98,46 @@
   margin-bottom: 20px;
 }
 
-.event-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
 .event-name {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.event-location, .event-date {
+.event-location, .event-date, .update-location, .update-time, .stat-description, .status-description {
   font-size: 14px;
   margin-bottom: 5px;
+  color: #6b7280;
 }
 
-.event-stats {
+.event-stats, .status-stats {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.stat-item {
+.stat-item, .status-item {
   text-align: center;
 }
 
-.stat-number {
+.stat-number, .status-number {
   font-size: 32px;
-  font-weight: bold;
-}
-
-.stat-description {
-  font-size: 14px;
-}
-
-.weekly-status {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.status-stats {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.status-item {
-  text-align: center;
-}
-
-.status-number {
-  font-size: 24px;
   font-weight: bold;
   color: #7c3aed;
 }
 
-.status-description {
-  font-size: 14px;
-  color: #6b7280;
+.weekly-status, .update-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .updates-list {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-.update-item {
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: relative;
-}
-
-.update-event {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
-  color: #374151;
-}
-
-.update-location, .update-time {
-  font-size: 14px;
-  color: #6b7280;
 }
 
 .update-price {
