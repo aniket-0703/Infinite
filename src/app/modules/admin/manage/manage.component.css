@@ -16,11 +16,14 @@ body, html {
   height: 100vh;
 }
 
-.main-header {
+.main-header, .right-sidebar {
   background-color: white;
   padding: 20px;
-  border-bottom: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-header {
+  border-bottom: 1px solid #ddd;
 }
 
 .header-content {
@@ -50,7 +53,6 @@ body, html {
 }
 
 .sidebar {
-  width: 100%;
   max-width: 250px;
   background-color: #6200ea;
   color: white;
@@ -75,7 +77,6 @@ body, html {
 
 .sidebar nav ul {
   list-style: none;
-  padding: 0;
 }
 
 .sidebar nav ul li {
@@ -93,10 +94,6 @@ body, html {
 
 .sidebar nav ul li a:hover, .sidebar nav ul li a.active {
   background-color: #3700b3;
-}
-
-.sidebar .calendar {
-  margin-top: 20px;
 }
 
 .sidebar .calendar h3 {
@@ -159,12 +156,8 @@ body, html {
 }
 
 .right-sidebar {
-  width: 100%;
   max-width: 300px;
-  background-color: white;
-  padding: 20px;
   border-top: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
 
