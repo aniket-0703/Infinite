@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
   font-family: 'Poppins';
@@ -11,22 +10,18 @@ html {
   color: #333;
   height: 100%;
   overflow-y: visible;
-  /* Ensure that the body doesn't overflow */
 }
 
 .container {
   display: flex;
   height: 100vh;
   overflow: hidden;
-  /* Prevent container overflow */
 }
 
-/* Sidebar styles */
 .sidebar {
   width: 250px;
   height: 100vh;
   background-color: #fff;
-  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,8 +59,7 @@ html {
   font-weight: 500;
 }
 
-.menu a:hover,
-.menu .active a {
+.menu a:hover, .menu .active a {
   background-color: #4b2f89;
   color: white;
 }
@@ -74,17 +68,14 @@ html {
   color: rgba(106, 103, 103, 0.8);
 }
 
-/* Main content styles */
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
   background-color: #f9f9fc;
   overflow-y: auto;
-  /* Enable vertical scrolling */
   overflow-x: hidden;
 }
-
 
 .header {
   width: calc(100% - 300px);
@@ -178,26 +169,26 @@ html {
 
 .content {
   margin-top: 10px;
-  /* Space for fixed header */
   padding: 20px;
   overflow-y: visible;
-  /* overflow-y: auto; */
-  /* Ensure scrollability in content */
-  height: 100vh ;
-  /* Adjust for header height */
+  height: 100vh;
 }
 
 .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* Align to the top */
   flex-wrap: wrap;
-  /* Allow wrapping of elements */
 }
 
+.weekly-status, .status-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-/* Weekly Basis Status */
 .weekly-status {
   display: flex;
   margin-bottom: 10px;
@@ -208,11 +199,6 @@ html {
 }
 
 .status-item {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   flex: 1 1 45%;
 }
 
@@ -228,26 +214,22 @@ html {
   color: #777;
 }
 
-/* Right Sidebar for Other Content */
-.right-sidebar {
-  width: 310px;
-  background-color: #f4f4f9;
-  padding: 20px;
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-  height: auto;
-  border-radius: 10px;
-  margin-top: 80px;
-  /* Align with content top */
-  margin-left: 20px;
-}
-
-.recent-updates {
+.right-sidebar, .recent-updates {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.right-sidebar {
+  width: 310px;
+  height: auto;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.recent-updates {
   margin-top: 0;
-  /* Align with content top */
 }
 
 .recent-updates h4 {
@@ -292,13 +274,11 @@ html {
   text-align: center;
 }
 
-/* New class to wrap event details and right sidebar */
 .main-wrapper {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-
 
 .container1 {
   width: 80%;
@@ -316,19 +296,20 @@ html {
   margin-bottom: 30px;
 }
 
-  .event-title1 {
-    font-size: 40px;
-    font-weight: 700;
-    color: white;
-    text-align: center; /* Optional: Center align the text */
-  }
+.event-title1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
 
-  .event-title1 p {
-    font-size: 40px; /* Adjust the size for the <p> tag */
-    font-weight: 700; /* Optional: Make the <p> text normal weight */
-    margin: 0; /* Remove default margin of <p> */
-    margin-left: 20px;
-  }
+.event-title1 p {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 20px;
+}
+
 .event-info1 {
   text-align: right;
 }
@@ -344,33 +325,18 @@ html {
   color: white;
 }
 
-.event-date1 {
+.event-date1, .event-location1 {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   color: white;
 }
 
-.event-date1 i {
+.event-date1 i, .event-location1 i {
   margin-right: 10px;
   font-size: 18px;
   color: white;
 }
-
-.event-location1 {
-  display: flex;
-  align-items: center;
-  color: white;
-}
-
-.event-location1 i {
-  margin-right: 10px;
-  font-size: 18px;
-  color: white;
-}
-
-
-
 
 .grid-container {
   display: grid;
@@ -393,7 +359,6 @@ html {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #7f53ac;
   background: linear-gradient(to right, #7f53ac, #647dee);
   border-radius: 10px;
   padding: 10px;
